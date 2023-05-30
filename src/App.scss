@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+}
+
+.App {
+  .navbar {
+    width: 100vw;
+    height: 7vh;
+    background: #ffffff;
+    padding: 0 2%;
+
+    .diortext {
+      color: #000000;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .detailtext {
+      color: #575757;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      margin-left: 2rem;
+    }
+  }
+
+  .mainbg {
+    height: 60vh;
+    background-image: url('./img/cover-gardening.avif');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+
+    .row {
+      .col-md-4 {
+        img {
+          width: 20vw;
+        }
+      }
+    }
+  }
+
+
+}

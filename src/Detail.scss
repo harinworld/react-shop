@@ -1,0 +1,31 @@
+.detail {
+    display: flex;
+    padding: 0 5%;
+
+    .left {
+        width: 50%;
+
+        img {
+            width: 45vw;
+        }
+    }
+
+    .right {
+        width: 50%;
+        padding: 0 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(207, 255, 247);
+
+        button {
+            width: 14rem;
+            height: 2.5rem;
+            background-color: #000;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+        }
+    }
+}
